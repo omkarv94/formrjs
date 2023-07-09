@@ -1,0 +1,100 @@
+.main{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    background-image: url(https://thumbs.dreamstime.com/z/flight-ticket-booking-concept-blurred-city-abstract-lights-background-flight-ticket-booking-concept-blurred-city-lights-173050269.jpg);
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-main{
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    margin-top: 8rem;
+    height: 450px;
+    width: 25%;
+    box-shadow: 2px 2px 2px 2px rgb(195, 225, 248);
+    border-radius: 1rem;
+    background-color: rgb(232, 244, 255);
+}
+
+.profile{
+    height: 120px;
+    width: 120px;
+    border-radius: 130px;
+    margin-top: 0.4rem;
+}
+
+.text{
+    /* display: flex; */
+    text-align: center;
+}
+
+input{
+    width: 270px;
+    height: 33px;
+    border-radius: 2rem;
+    /* margin-top: 50px; */
+    box-shadow: 0 0 7px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #fff; 
+}
+span{
+    margin-top: 3rem;
+}
+.email{
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 5px;
+    /* padding: 14px 0 0 25px; */
+}
+.password{
+    height: 21px;
+    width: 21px;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 5px;
+    /* padding: 14px 0 0 25px; */
+}
+.login-button button{
+    width: 273px;
+    height: 37px;
+    border-radius: 2rem;
+    /* margin-top: 50px; */
+    box-shadow: 0 0 7px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #70bee6; 
+    margin-top: 1.5rem;
+}
+button{
+    color: white;
+    font-size: 20px;
+}
+.login-button :hover{
+    background-color: #fff;
+}
+button:hover{
+    color: rgb(48, 44, 44);
+}
+.em{
+    margin-top: 1.5rem;
+}
+.pass{
+    margin-top: 1rem;
+}
+.name{
+    padding-left: 40px;
+    font-size: 16px;
+}
+.link{
+    margin-top: 1rem;
+}
